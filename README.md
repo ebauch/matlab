@@ -1,5 +1,5 @@
 # matlab code examples 
-Erik Bauch
+Erik Bauch, May 2017
 
 ### Fit n number of Lorentzian peaks to data
 
