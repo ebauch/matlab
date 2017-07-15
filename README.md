@@ -1,4 +1,7 @@
-# Fit n number of Lorentzian peaks to data
+# matlab code examples 
+Erik Bauch
+
+### Fit n number of Lorentzian peaks to data
 
 1. Download fitnlorentzian.m plus example data in 4peaksdata.dat (or clone repo) 
 2. in matlab run
@@ -11,6 +14,7 @@
     fitnlorentzian(data, n)
 ```
 
+![Lorentzian fitting example](https://github.com/ebauch/matlab/blob/master/4peaksdata.png)
 # Fit n number of Gaussian peaks to data
 
 [coming soon]
