@@ -1,7 +1,7 @@
 # matlab code examples 
 Erik Bauch, May 2017
 
-### Fit n number of Lorentzian peaks to data
+### fitnlorentzian.m - Fit n number of Lorentzian peaks to data
 
 1. Download fitnlorentzian.m plus example data in 4peaksdata.dat (or clone repo) 
 2. in matlab run
