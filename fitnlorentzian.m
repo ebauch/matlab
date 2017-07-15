@@ -1,10 +1,10 @@
 function results = fitnlorentzian(data, parameters)
+% fit n Lorentzians to xydata with automated guessing of peak locations
 % Erik Bauch, May 2017
-% github.com/ebauch
-% fit n # of Lorentzians to xydata with automated guessing of initial
-% valuess
+% github.com/ebauch/matlab
+
 % data is of form [xdata ydata] were xdata and ydata 1 x n arrays
-% parameters are of form [par1,par2,..., parN],
+% parameters are of form [par1, par2, ..., parN],
 % with par1 = # of peaks to fit
 
 %% unfold data
