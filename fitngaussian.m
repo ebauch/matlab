@@ -40,7 +40,7 @@ ydata = ydata(xsortindex);
                
     amp = (max(ydata)-min(ydata));
     offset = (max(ydata)+min(ydata))/2;      
-    lw = 0.5; %in GHZ
+    lw = 0.5; %in some unit
 
 %% fitting
 
@@ -81,17 +81,17 @@ end
 switch npeaks
     case 1
         
-        epilog = char(['f1=' num2str(round(fitf.center1,4)) ' GHz R2: ' round(num2str(gof.rsquare)),2]);
+        epilog = char(['f1=' num2str(round(fitf.center1,4)) ' R2: ' round(num2str(gof.rsquare)),2]);
         results = sort([fitf.center1]);
         
     case 2 
         
-        epilog = char(['f1=' num2str(round(fitf.center1,4)) ' f2=' num2str(round(fitf.center2,4)) ' GHz R2: ' round(num2str(gof.rsquare)),2]);
+        epilog = char(['f1=' num2str(round(fitf.center1,4)) ' f2=' num2str(round(fitf.center2,4)) ' R2: ' round(num2str(gof.rsquare)),2]);
         results = sort([fitf.center1, fitf.center2]);
         
     case 3
         
-        epilog = char(['f1=' num2str(round(fitf.center1,4)) ' f2=' num2str(round(fitf.center2,4))  ' f3= ' num2str(round(fitf.center3,4)) ' GHz R2: ' round(num2str(gof.rsquare)),2]);
+        epilog = char(['f1=' num2str(round(fitf.center1,4)) ' f2=' num2str(round(fitf.center2,4))  ' f3= ' num2str(round(fitf.center3,4)) ' R2: ' round(num2str(gof.rsquare)),2]);
         results = sort([fitf.center1, fitf.center2, fitf.center3]);
         
     otherwise
