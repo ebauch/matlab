@@ -33,5 +33,5 @@ this code on [mathworks fileexchange](https://www.mathworks.com/matlabcentral/fi
 
 ![Gaussian fitting example](https://github.com/ebauch/matlab/blob/master/4peaksdata_gaussian.png)
 
-this code on [mathworks fileexchange](https://www.mathworks.com/matlabcentral/fileexchange/63748-fitnlorentzian-xydata--parameters--fit-sum-of-lorentzian-to-data)
+this code on [mathworks fileexchange](https://www.mathworks.com/matlabcentral/fileexchange/63771-fitngaussian-xy--parameters-)
 
